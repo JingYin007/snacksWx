@@ -43,8 +43,7 @@ Page({
     wx.login({
       success: function (res) {
         var code = res.code;
-        console.log('code');
-        console.log(code);
+        console.log('code:' + code);
         wx.request({
           url: baseUrl + '/token/user',
           data: {
