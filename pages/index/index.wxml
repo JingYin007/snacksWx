@@ -9,3 +9,4 @@
 <button type="warn" bindtap="checkSession">检查登录态</button>
 
 <button type="primary" bindtap="cbRequest">回调测试</button>
+ <button open-type="getUserInfo">getUserInfo</button>
